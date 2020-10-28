@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -p 'Please enter your assigned machine name (e.g. larsofttws1): ' MACHINENAME
+read -p 'Please enter your assigned machine name (e.g. larsoftws1): ' MACHINENAME
 read -p 'and now your assigned username (e.g. larsoft1): ' USERNAME
 read -p 'and finally your assigned port number (e.g. 15901): ' PORTNUMBER
 
