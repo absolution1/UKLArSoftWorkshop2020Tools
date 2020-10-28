@@ -12,7 +12,7 @@ if [ "$CHECK" == "y" ]
   INJECTION="Host ${MACHINENAME}\n
   HostName ${MACHINENAME}.blackett.manchester.ac.uk\n
   User ${USERNAME}\n
-  LocalForword 5909 localhost:${PORTNUMBER}"
+  LocalForward 5909 localhost:${PORTNUMBER}"
   echo "Injecting the following into ${DESTINATION}:"
   echo -e ${INJECTION}
   echo -e ${INJECTION} >> ${DESTINATION}
